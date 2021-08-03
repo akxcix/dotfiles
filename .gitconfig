@@ -1,0 +1,21 @@
+[init]
+	defaultBranch = main
+
+[user]
+	email = contactadarshk@gmail.com
+	name = Adarsh Kumar
+
+[pull]
+	ff = only
+
+[alias]
+	co = checkout
+	cob = checkout -b
+	ci = commit
+	st = status
+	br = branch
+	del = branch -D
+	undo = reset HEAD~1 --mixed
+	hist = log --graph --date=format:'%a, %d %b %Y  %H:%M:%S' \
+		--pretty=format:'%C(yellow)%h %C(bold red) %ad %C(magenta)| \
+		%s%C(auto)%d %C(bold blue)[%an]%C(auto)'
