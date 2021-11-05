@@ -1,0 +1,8 @@
+alias ls='ls -o -G'
+alias e='exit'
+
+alias pg-start='pg_ctl -D /opt/homebrew/var/postgres start'
+alias pg-stop='pg_ctl -D /opt/homebrew/var/postgres stop'
+
+alias redis-start='redis-server /opt/homebrew/etc/redis.conf'
+alias redis-stop='brew services stop redis'
