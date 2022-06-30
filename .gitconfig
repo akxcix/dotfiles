@@ -19,3 +19,5 @@
 	hist = log --graph --date=format:'%a, %d %b %Y  %H:%M:%S' \
 		--pretty=format:'%C(yellow)%h %C(bold red) %ad %C(magenta)| \
 		%s%C(auto)%d %C(bold blue)[%an]%C(auto)'
+[push]
+	followTags = true
