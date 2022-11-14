@@ -1,5 +1,6 @@
 alias ls='ls -o -G'
 alias e='exit'
+alias epoch='date +%s000'
 
 alias pg-start='pg_ctl -D /opt/homebrew/var/postgres start'
 alias pg-stop='pg_ctl -D /opt/homebrew/var/postgres stop'
