@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 ## Usage
 symlink what config you need to track and maintain:
 ``` bash
